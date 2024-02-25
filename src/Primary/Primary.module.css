@@ -75,8 +75,13 @@
         align-items: center;
     }
 
+    .temperature {
+        text-align: center;
+    }
+
     .temperature__capture, .date__capture, .overall__capture {
         font-size: 1.125em;
+        text-align: center;
     }
 
     .overall__text {
@@ -89,6 +94,10 @@
 
     .temperature__info {
         font-size: 1.125em;
+    }
+
+    .temperature__img {
+        margin: 0 auto;
     }
 
 }
