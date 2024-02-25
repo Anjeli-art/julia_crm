@@ -1,0 +1,94 @@
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.homework {
+    padding-top: 150px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #40504a;
+}
+
+.content__top {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.temperature {
+    display: flex;
+    flex-direction: column;
+}
+
+.temperature__capture, .date__capture, .overall__capture {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.temperature__info {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.temperature__img {
+    width: 90px;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.date__info {
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.overall {
+    margin-bottom: 30px;
+}
+
+.overall__border {
+    max-width: 250px;
+    border: 1px solid #40504a;
+}
+
+.overall__text {
+    font-size: 2.25em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-style: italic;
+    padding: 5px;
+}
+
+@media (max-width: 769px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .temperature__capture, .date__capture, .overall__capture {
+        font-size: 1.125em;
+    }
+
+    .overall__text {
+        font-size: 1.125em;
+    }
+
+    .date__info {
+        font-size: 1.125em;
+    }
+
+    .temperature__info {
+        font-size: 1.125em;
+    }
+
+}

@@ -1,0 +1,14 @@
+.container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.kindergarten{
+    padding-top: 150px;
+}
+
+.subtitle{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373a39;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+}
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[class] {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
